@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.center{
+    width:1280px;
+    margin:0 auto;
+}
+
+.header{
+    width:100%;
+    height: 90px;
+    background-color:#372e85;
+}
+.container-banner{
+    width:100%;
+    height:557px;
+    background-image:url('../images/header_bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.header img{
+    margin-top: 25px;
+    margin-left:20px;
+}
+.container-banner > .center{
+    height: 100%;
+}
+.form{
+    padding: 12px;
+    width: 400px;
+    height: calc(100%);
+    float: right;
+    position: relative;
+    top: -15px;
+    border: 8px solid #aaa;
+
+    background-color: rgb(233, 233, 245);
+}
+
+.form h2{
+    font-weight: normal;
+    color: #999999;
+    font-size: 20px;
+}
+.input{
+    margin: 20px auto;
+    color: #999999;
+    font-size: 18px;
+}
+
+.input span{
+    display: inline-block;
+    width:100%;
+    color:#aaa;
+    font-weight:bold ;
+}
+
+.input input[type=text]{
+    margin-top: 10px;
+    width:344px;
+    height:55px;
+    border:1px solid #ccc;
+}
+
+.warning{
+    font-size: 15px;
+    margin-top: 30px;
+    color: #999999;
+}
+input-submit{
+    text-align: center;
+}
+input[type=submit]{
+    width:280px;
+    height:56px;
+    background-color:#372e85 ;
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    display: inline-block;
+    border: 0;
+    margin-top: 30px;
+}
+
+.container-information{
+    padding:30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    float: left;
+    width: 649px;
+    height:270px;
+    background-color: rgba(33,35,67,0.7) ;
+}
+.container-information li{
+    list-style-position: inside;
+}
+.container-information ul li{
+    color:white;
+    margin-top: 18px;
+}
+
+.overpage{
+    padding:40px;
+    background-color: rgb(210,210,210);
+    text-align: center;
+}
+.overpage p{
+    margin: 15px 0;
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+}
+.arrow{
+    width:40px;
+    height:40px;
+    background-image: url('../images/arrow.png');
+    background-size: 100% 100%;
+    position: relative;
+    top: -20px;
+    left: 50%;
+}
+.section{
+    padding: 90px 0;
+}
+
+.section h2{
+    text-align: center;
+    color:#462663;
+    font-weight: normal;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+.symbol{
+    float:left;
+    width:33.33%;
+    padding:30px;
+}
+.symbol img{
+    width:70px;
+}
+.symbol p{
+    display: inline-block;
+    text-align: justify;
+    padding:10px 25px;
+}
